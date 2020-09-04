@@ -21,7 +21,6 @@ df["user_description"] = df['user_description'].str.lstrip()
 #limpiamos NA
 df = df.dropna(axis = 0) 
 
-
 #- Crea una función que muestre cuántos tweets han sido publicados por mes, aparte muestrales en una tabla.
 
 # - Crea una función que muestre cuántos tweets han sido publicados por semanas, basados en el punto anterior.

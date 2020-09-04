@@ -25,3 +25,4 @@ df = df.dropna(axis = 0)
    # - Publicados con imágenes
    # - Publicados con urls
    # - Crea una función que se encargue de mostrar las palabras más repetidas por país.
+   
