@@ -28,18 +28,7 @@ df = df.dropna(axis = 0)
 
    # - Crea una función que se encargue de mostrar las palabras más repetidas por país.
 
-# creating a list of dataframe columns 
-def word_count(str):
-    counts = dict()
-    words = str.split()
-    for word in words:
-        if word in counts:
-            counts[word] += 1
-        else:
-            counts[word] = 1
-    return counts
+dfo=df[df.text.str.contains("url")]
 
+print(count.lenght(dfo.text.head))
 
-
-for i in df.text(): 
-    print(i) 
